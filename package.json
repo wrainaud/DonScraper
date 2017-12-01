@@ -1,0 +1,28 @@
+{
+  "name": "DonScraper",
+  "version": "1.0.0",
+  "description": "DonScraper - A \"MadMen\" web app that lets users view and leave comments on the latest news.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrainaud/DonScraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrainaud/DonScraper/issues"
+  },
+  "homepage": "https://github.com/wrainaud/DonScraper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "mongojs": "^2.3.0",
+    "request": "^2.69.0"
+  }
+}
