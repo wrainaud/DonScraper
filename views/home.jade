@@ -4,3 +4,33 @@ block content
   h1 DonScraper
   p.lead A "MadMen" themed webscraper app that lets users view and leave comments on the latest news.
   hr
+  .container
+      #myCarousel.carousel.slide(data-ride='carousel')
+
+        ol.carousel-indicators
+          li.active(data-target='#myCarousel', data-slide-to='0')
+          |       
+          li(data-target='#myCarousel', data-slide-to='1')
+          |       
+          li(data-target='#myCarousel', data-slide-to='2')
+   
+        .carousel-inner
+          .item.active
+            img(src='/img/madmen.png', alt='Mad Men', style='width:100%;')
+          |       
+          .item
+            img(src='/img/madmen2.png', alt='Mad Men', style='width:100%;')
+          |     
+          |       
+          .item
+            img(src='/img/madmen3.png', alt='Mad Men', style='width:100%;')
+        
+        a.left.carousel-control(href='#myCarousel', data-slide='prev')
+          span.glyphicon.glyphicon-chevron-left
+          |       
+          span.sr-only Previous
+        |     
+        a.right.carousel-control(href='#myCarousel', data-slide='next')
+          span.glyphicon.glyphicon-chevron-right
+          |       
+          span.sr-only Next

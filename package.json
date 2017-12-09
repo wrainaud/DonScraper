@@ -45,32 +45,13 @@
     "mongoose": "^4.4.16",
     "morgan": "^1.7.0",
     "multer": "^1.1.0",
-    "node-foursquare": "^0.3.0",
-    "node-linkedin": "^0.5.3",
     "node-sass-middleware": "^0.9.8",
     "nodemailer": "^2.3.2",
     "passport": "0.3.2",
-    "passport-facebook": "^2.1.0",
-    "passport-github": "^1.1.0",
     "passport-google-oauth": "^1.0.0",
-    "passport-instagram": "^1.0.0",
-    "passport-linkedin-oauth2": "^1.4.0",
     "passport-local": "^1.0.0",
     "passport-oauth": "^1.0.0",
-    "passport-openid": "^0.4.0",
-    "passport-twitter": "^1.0.4",
-    "paypal-rest-sdk": "^1.6.8",
     "request": "^2.72.0",
-    "stripe": "^4.6.0",
-    "tumblr.js": "^1.0.0",
-    "twilio": "^3.3.0-edge",
-    "twit": "^2.2.4",
-    "validator": "^5.2.0",
-    "yui": "^3.18.1"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
+    "validator": "^5.2.0"
   }
 }
