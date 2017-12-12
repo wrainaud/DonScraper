@@ -1,12 +1,12 @@
-body{
+body {
     background: url('../flakes.png') no-repeat left top;
+    padding-top: 41px;
 }
 
-
-container{
+container {
     margin-top: 45px;
 }
 
-footer{
+footer {
     padding-top: 5px;
 }
