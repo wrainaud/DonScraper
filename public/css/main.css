@@ -1,0 +1,12 @@
+body{
+    background: url('../flakes.png') no-repeat left top;
+}
+
+
+container{
+    margin-top: 45px;
+}
+
+footer{
+    padding-top: 5px;
+}
