@@ -8,6 +8,7 @@ stamp="$(sha256sum package-lock.json package.json | sha256sum | cut -d' ' -f1)"
 if [[ ! -f node_modules/.air-lock || "$(cat node_modules/.air-lock)" != "$stamp" ]]; then
   echo "Installing locked dependencies"
   docker run --rm --network host -e HTTP_PROXY -e HTTPS_PROXY -e http_proxy -e https_proxy -v "$PWD:/app" donscraper-dev node /opt/npm/bin/npm-cli.js ci --unsafe-perm
+  docker run --rm -v "$PWD:/app" donscraper-dev chown -R "$(id -u):$(id -g)" /app/node_modules
   echo "$stamp" > node_modules/.air-lock
 fi
 docker volume create donscraper-data >/dev/null
